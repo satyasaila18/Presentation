@@ -17,3 +17,11 @@ if res:
     print(f'{n} is a happy number')
 else:
     print(f'{n} not a happy number')
+
+
+#first n happy numbers
+
+m=int(input("Enter rangee : "))
+for i in range(1,m+1):
+    if happy(i)==True:
+        print(i)
