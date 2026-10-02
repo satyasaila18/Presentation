@@ -1,12 +1,15 @@
 class College:
-    Cname = "ACET"  # Fixed: Made it a class variable so other classes can access it
+    Cname = "ACET" 
 
 class Student(College):
-    def __init__(self, name):  # Fixed: Added the __init__ constructor method
+    def __init__(self, name):  
         self.name = name
         
-    def name_S(self):  # Fixed: Added 'self' parameter to reference the instance
+    def name_S(self):  
         print(f'{self.name} is studying in {College.Cname}')
 
 s = Student("Satya")
 s.name_S()
+
+p=Student("Virat")
+p.name_S()
