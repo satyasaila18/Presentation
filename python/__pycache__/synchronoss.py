@@ -3,5 +3,6 @@ arr2=[3,5,2]
 res=[x for x in arr1 if x not in arr2]
 print(res)
 
+#using set operation
 print(set(arr1)-set(arr2))
 
