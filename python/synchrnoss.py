@@ -17,3 +17,8 @@ if rev==s:
     print("Palindrome..")
 else:
     print("Not a palindrome")
+
+
+s='Satya'
+s=55
+print(s)
