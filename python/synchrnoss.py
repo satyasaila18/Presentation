@@ -1,3 +1,4 @@
+import random
 arr=[1,2,3,4,4,51,9,33,0,999]
 mx=arr[0]
 for i in range(len(arr)):
@@ -22,3 +23,6 @@ else:
 s='Satya'
 s=55
 print(s)
+
+digi=random.randint(1,100)
+print(digi)
