@@ -16,3 +16,5 @@ b=[1,2,3,4,5]
 c=b.append(6)
 print(b)
 print(c)
+
+print((lambda x:(lambda y:x**y)(3))(2))
